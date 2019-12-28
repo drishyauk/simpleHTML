@@ -10,7 +10,7 @@ steps to commit code:
 
 #git add .
 
-# git commit -a -m "write the message here"
+#git commit -a -m "write the message here"
 
 #git pull origin master
 
