@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Simple HTML5 code</title>
+<script>
+function test(){
+    document.getElementById("demo").innerHTML = "inserted this value when clicked on click here";
+}
+function getValue(){
+    var names = document.getElementById("name").value;
+    document.getElementById("demos").innerHTML = names;
+}
+</script>
+</head>
+<body>
+   <p onclick="test()">click here</p>
+   <p id="demo"></p>
+   <br><br>
+   <input type="text" id="name"/>
+   <input type="submit" value="click me" onclick="getValue()"/>
+   <p id="demos"></p>
+   <hr>
+   <a href="index.html">Back</a>
+</body>
+</html>
